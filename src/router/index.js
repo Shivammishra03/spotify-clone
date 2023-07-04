@@ -6,8 +6,17 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
       component: HomeView
+    },
+    {
+      path: '/search',
+      name: 'search',
+      component: () => import(/* webpackChunkName: "search" */ '../views/SearchView.vue'),
+    },
+    {
+      path: '/library',
+      name: 'library',
+      component: () => import(/* webpackChunkName: "library" */ '../views/LibraryView.vue'),
     },
   ]
 })
