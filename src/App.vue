@@ -14,6 +14,7 @@ let openMenu = ref(false)
 </script>
 
 <template>
+  <div class="fixed right-0 top-0 w-full overflow-auto h-full bg-gradient-to-b from-[#1C1C1C] to-black"></div>
   <div>
     <div
       class="
