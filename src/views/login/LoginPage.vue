@@ -15,9 +15,19 @@
                 <h1 class="header-text" data-encore-id="type">Log in to Spotify</h1>
                 <ul class="login-list-section">
                     <li class="login-inner-list">
-                        
+                        <button data-testid="google-login" class="Button-sc-y0gtbx-0 jJyUnh sc-jIRcFI kytqHe" data-encore-id="buttonSecondary"><span name="new-google-icon" class="sc-hhOBVt iuDXBJ"></span><span class="Type__TypeElement-sc-goli3j-0 kwLSIj sc-eDvSVe sc-hBxehG sc-fEXmlR itlAHd gjBoil eTMXUY" data-encore-id="type">Continue with Google</span></button>
                     </li>
+                    <li class="sc-ezOQGI iABXsu">
+                        <button data-testid="facebook-login" class="Button-sc-y0gtbx-0 jJyUnh sc-jIRcFI kytqHe" data-encore-id="buttonSecondary">
+                            <span name="new-facebook-icon" class="sc-hhOBVt gsbglU"></span>
+                            <span class="Type__TypeElement-sc-goli3j-0 kwLSIj sc-eDvSVe sc-hBxehG sc-fEXmlR itlAHd gjBoil eTMXUY" data-encore-id="type">Continue with Facebook</span>
+                        </button>
+                    </li>
+                    <li class="sc-ezOQGI iABXsu"><button data-testid="apple-login" class="Button-sc-y0gtbx-0 jJyUnh sc-jIRcFI kytqHe" data-encore-id="buttonSecondary"><span name="new-apple-icon" class="sc-hhOBVt AmONz"></span><span class="Type__TypeElement-sc-goli3j-0 kwLSIj sc-eDvSVe sc-hBxehG sc-fEXmlR itlAHd gjBoil eTMXUY" data-encore-id="type">Continue with Apple</span></button></li>
+                    <li class="sc-ezOQGI iABXsu"><button data-testid="phone-login" class="Button-sc-y0gtbx-0 jJyUnh sc-jIRcFI kytqHe" data-encore-id="buttonSecondary"><span class="Type__TypeElement-sc-goli3j-0 kwLSIj sc-eDvSVe sc-hBxehG sc-fEXmlR itlAHd gjBoil eTMXUY" data-encore-id="type">Continue with phone number</span></button></li>
                 </ul>
+                <hr role="presentation" class="sc-iBYQkv OEwmv">
+                <div data-testid="login-form" class="Group-sc-u9bcx5-0 kWRxyd sc-bjfHbI bGYVrs" data-encore-id="formGroup"><div class="Group-sc-u9bcx5-0 kWRxyd sc-idXgbr sc-dIfARi eoRzGN eokstg" data-encore-id="formGroup"><div class="LabelGroup-sc-1ibddrg-0 duTSXm"><label for="login-username" class="Label-sc-1c0cv3r-0 cwWhaQ"><span class="LabelInner-sc-19pye2k-0 LnTCl">Email or username</span></label></div><input aria-invalid="true" id="login-username" type="text" placeholder="Email or username" data-testid="login-username" autocapitalize="off" autocomplete="username" spellcheck="false" autocorrect="off" aria-describedby="username-error" data-encore-id="formInput" class="Input-sc-1gbx9xe-0 eRUvFB" value=""><div data-testid="username-error" id="username-error" data-encore-id="formHelpText" class="Help-sc-1xezfve-0 fXKibU"><svg role="img" height="16" width="16" aria-hidden="true" aria-label="Error:" class="Svg-sc-ytk21e-0 uPxdw IconExclamationAltActiveForText-sc-1qghvhz-0 eHCaRV" viewBox="0 0 16 16" data-encore-id="icon"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.25-5v7h1.5V3h-1.5zm0 8.526v1.5h1.5v-1.5h-1.5z"></path></svg><span class="Text-sc-g5kv67-0 jYLjty"><p class="Type__TypeElement-sc-goli3j-0 gkqrGP sc-bqWxrE iJlXnD" data-encore-id="type">Please enter your Spotify username or email address.</p></span></div></div><div class="Group-sc-u9bcx5-0 kWRxyd sc-idXgbr sc-dIfARi eoRzGN eokstg" data-encore-id="formGroup"><div class="LabelGroup-sc-1ibddrg-0 duTSXm"><label for="login-password" class="Label-sc-1c0cv3r-0 cwWhaQ"><span class="LabelInner-sc-19pye2k-0 LnTCl">Password</span></label></div><div data-encore-id="formInputIcon" class="InputContainer-sc-a5ofs0-0 btxxcI"><input aria-invalid="false" id="login-password" type="password" placeholder="Password" data-testid="login-password" autocomplete="current-password" spellcheck="false" autocorrect="off" aria-describedby="password-error" data-encore-id="formInput" class="Input-sc-1gbx9xe-0 fOpTaL"><div class="IconContainer-sc-1oa4n9m-0 huaAbB"><button data-testid="login-password-preview" aria-label="show password" data-encore-id="buttonTertiary" class="Button-sc-1dqy6lx-0 eMFxEP"><span aria-hidden="true" class="IconWrapper__Wrapper-sc-16usrgb-0 eJHlti"><svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="Svg-sc-ytk21e-0 uPxdw"><path d="M22.207 2.824a1 1 0 1 0-1.414-1.414L17.15 5.053C15.621 4.363 13.92 4 12 4 8.671 4 5.996 5.091 3.742 7.089c-.896.794-2.3 2.353-3.381 4.453L.125 12l.236.458c1.082 2.1 2.485 3.659 3.381 4.453.278.246.562.479.853.697L1.793 20.41a1 1 0 1 0 1.414 1.414l3.126-3.126.003.002 1.503-1.503-.004-.001 1.73-1.73.004.001 1.567-1.567h-.004l4.68-4.681.001.004 1.595-1.595-.002-.003.11-.109.002.002 1.444-1.444-.003-.002 3.248-3.248zM14.884 7.32l-5.57 5.57A4.035 4.035 0 0 1 8.113 10c0-2.23 1.761-4 3.886-4 1.137 0 2.17.506 2.884 1.319zM7.9 14.304l-1.873 1.873a11.319 11.319 0 0 1-.957-.763C4.396 14.818 3.3 13.621 2.387 12c.913-1.62 2.01-2.818 2.683-3.414.519-.46 1.061-.863 1.634-1.204A6.073 6.073 0 0 0 6.113 10c0 1.681.682 3.21 1.786 4.304zm11.568-5.2 1.415-1.415a16.503 16.503 0 0 1 2.756 3.853l.236.458-.236.458c-1.082 2.1-2.485 3.659-3.381 4.453C18.004 18.908 15.328 20 12 20a13.22 13.22 0 0 1-3.08-.348l1.726-1.726c.435.05.886.074 1.354.074 2.833 0 5.037-.907 6.931-2.586.674-.596 1.77-1.793 2.683-3.414a14.515 14.515 0 0 0-2.146-2.896z"></path><path d="M17.843 10.729c-.328 2.755-2.494 4.956-5.24 5.24l5.24-5.24z"></path></svg></span></button></div></div></div><div class="sc-dmctIk sc-kgTSHT EYhyD zySKg"><div class="Group-sc-u9bcx5-0 kWRxyd sc-idXgbr sc-dIfARi sc-hHTYSt eoRzGN eokstg IkglP" data-encore-id="formGroup"><label data-encore-id="formToggle" class="Checkbox-sc-jka46s-0 bqRVOd"><input type="checkbox" id="login-remember" name="remember" data-testid="login-remember" data-encore-id="visuallyHidden" class="VisuallyHidden__VisuallyHiddenElement-sc-17bibe8-0 eUaqVT" checked=""><span class="Wrapper-sc-16y5c87-0 imHfsA"><span class="Indicator-sc-acu4qz-0 GuRdu"></span></span><span class="Label-sc-1sbwovc-0 kGXnFq"><p class="Type__TypeElement-sc-goli3j-0 gkqrGP sc-bqWxrE sc-ksBlkl iJlXnD eEfliY" data-encore-id="type">Remember me</p></span></label></div></div><div class="sc-bBABsx sc-iveFHk hqvHas izCaol"><button id="login-button" data-testid="login-button" data-encore-id="buttonPrimary" class="Button-sc-qlcn5g-0 otMlU" style="width: 100%;"><span class="ButtonInner-sc-14ud5tc-0 cJdEzG encore-bright-accent-set"><span class="Type__TypeElement-sc-goli3j-0 cOJqPq sc-eDvSVe sc-jSUZER itlAHd dbTuyj" data-encore-id="type">Log In</span></span><span class="ButtonFocus-sc-2hq6ey-0 csWrjt"></span></button></div><div class="sc-dmctIk sc-kgTSHT sc-fLcnxK EYhyD zySKg PPwIs"><a href="#" id="reset-password-link" data-testid="reset-password-link" data-encore-id="textLink" class="Link-sc-k8gsk-0 cIqjxr"><p class="Type__TypeElement-sc-goli3j-0 eRYMpa sc-bqWxrE iJlXnD" data-encore-id="type">Forgot your password?</p></a></div></div>
                </div> 
             </div>
         </div>
@@ -78,7 +88,7 @@
     row-gap: normal;
 
     list-style: none;
-    margin: 0px;
+    /* margin: 0px; */
     padding: 0px;
     text-indent: 0px;
     display: flex;
@@ -92,5 +102,88 @@
 }
 .kytqHe {
     margin-bottom: 8px;
+}
+.jJyUnh {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+    background-color: transparent;
+    border-radius: 500px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding-block: 7px;
+    padding-inline: 31px;
+    position: relative;
+    border: 1px solid #878787;
+    color: var(--text-base,#000000);
+    min-block-size: 48px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    inline-size: 100%;
+}
+.iuDXBJ {
+    background: url(https://accounts.scdn.co/sso/images/new-google-icon.72fd940a229bc94cf9484a3320b3dccb.svg) center center no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.eTMXUY {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: capitalize;
+    letter-spacing: normal;
+    margin: auto;
+}
+.gsbglU {
+    background: url(https://accounts.scdn.co/sso/images/new-facebook-icon.eae8e1b6256f7ccf01cf81913254e70b.svg) center center no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.AmONz {
+    background: url(https://accounts.scdn.co/sso/images/new-apple-icon.e356139ea90852da2e60f1ff738f3cbb.svg) center center no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.jJyUnh::after {
+    display: block;
+    position: absolute;
+    pointer-events: none;
+    transition: border-color 200ms ease-in 0s;
+    box-sizing: border-box;
+    inline-size: calc(100% + 12px);
+    block-size: calc(100% + 12px);
+    top: -6px;
+    left: -6px;
+    background: transparent;
+    border-radius: 500px;
+    border: 3px solid transparent;
+    content: "";
+}
+.jJyUnh:hover {
+    border-color: #000000;
+}
+.OEwmv {
+    margin: 32px 100px;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-image: initial;
+    border-top: 1px solid rgb(41, 41, 41);
+}
+.bGYVrs {
+    width: 324px;
+    margin: 0px auto;
+    padding-bottom: 0px;
 }
 </style>
