@@ -52,7 +52,3 @@ import CategorySelect from '../components/CategorySelect.vue'
     </div>
   </div>
 </template>
-
-<style lang="scss" scoped>
-
-</style>

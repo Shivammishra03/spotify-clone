@@ -50,4 +50,5 @@ import HomeCard from '../components/HomeCard.vue';
     <HomeCard class="xl:block hidden" image="https://picsum.photos/id/100/300/300" title="Title is here"
       subTitle="Subtitle is here" />
   </div>
-</div></template>
+</div>
+</template>
